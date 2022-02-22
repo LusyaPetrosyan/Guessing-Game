@@ -12,7 +12,7 @@ button.addEventListener("click", function() {
     let inputValue = "";
     if (Number(value.value) > 6 || Number(value.value) < 1) {
         showText.innerText = "";
-        alert("please enter true number, 1-6")
+        alert("please enter , 1-6")
     } else {
         inputValue = Number(value.value);
     }
